@@ -1,0 +1,46 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #eeddcc;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+    height: 80px;
+    width: 100%;
+}
+.search-bar{
+    height: 50px;
+    width: 60%;
+background-color: rgba(223, 86, 119, 0.79);
+}
+.all-videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 250px;
+    overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+    
+}
+.channel-name{
+    width: 184px;
+height: 35px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+}
+.video-container{
+    display: inline-block;
+    height: 212px;
+    min-width: 277px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: red;
+}
